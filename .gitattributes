@@ -1,0 +1,15 @@
+# Auto‐detect text files and normalize them to LF in the repo
+* text=auto
+
+# Treat these as text and force LF on checkout
+*.js    text eol=lf
+*.jsx   text eol=lf
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+
+# Binaries keep their own bytes
+*.png   binary
+*.jpg   binary
+*.ico   binary
