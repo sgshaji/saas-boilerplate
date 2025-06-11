@@ -2,3 +2,6 @@
 *.env
 dist/
 .DS_Store
+
+# local log files
+logs/
